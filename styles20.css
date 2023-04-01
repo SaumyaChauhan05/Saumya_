@@ -1,0 +1,172 @@
+nav{
+	background-image:url("bgs/versace.jpg");
+}
+nav > ul{
+	display:flex;
+	flex-direction:row;
+    justify-content:center;
+    align-items:center;
+	font-size:25px;
+	list-style-type:none;
+    padding:10px;
+    margin:10px;
+}
+nav > ul > a{
+	text-decoration:none;
+    display:contents;
+}
+nav > ul > a > li:hover{
+    transform:scale(1.1);
+    transition:1s;
+    transform: rotate(15deg) scale(1);
+}
+nav > ul > a > li > span:hover{
+    color:rgb(62, 9, 235);
+}
+ span{
+	color:rgb(63, 6, 6);
+	margin:15px;
+}
+.c1{
+    background-image:url("bgs/images\ \(2\).jpg");
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:50vh;
+}
+.c2{
+	background-image:url("images/bgs/green_dust_scratch.png");
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.c3{
+    background-image:url("images/bgs/green_dust_scratch.png");
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.c4{
+    background-image:url("bgs/download.jpg");
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.c5{
+    background-image:url("bgs/download.jpg");
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.c6{
+    background-image:url("bgs/download.jpg");
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.c7{
+    background-image:url("bgs/versace.jpg");
+    display:flex;
+    justify-content:center;
+    align-items:center;
+	color:rgb(26, 22, 22);
+	font-size:25px;
+}
+.c8{
+    background-image:url("images/bgs/washi.png");
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.c1 > div {
+    background-color:rgba(84, 62, 32, 0.633);
+	display:flex; 
+    flex-direction:column;
+    width:75%;
+    height:75%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+    box-shadow:10px 10px 5px rgb(97, 77, 53);
+}
+.c2 > div {
+	background-color:rgba(209, 139, 139, 0.784);
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:80%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+    box-shadow:10px 10px 5px rgba(176, 115, 135, 0.725);
+}
+.c3 > div {
+	background-color:rgba(209, 139, 139, 0.784);
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:90%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+    box-shadow:10px 10px 5px rgba(176, 115, 135, 0.725);
+    
+}
+.c4 > div {
+	background-color:rgba(184, 150, 150, 0.748);
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:90%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+    box-shadow:10px 10px 5px rgba(100, 72, 81, 0.725);
+}
+.c5 > div {
+	background-color:rgba(186, 135, 135, 0.693);
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:90%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+    box-shadow:10px 10px 5px rgba(122, 90, 100, 0.725);
+}
+
+.c8 > div {
+	background-color:rgba(154, 184, 195, 0.571);
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:90%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+    box-shadow:10px 10px 5px rgba(119, 144, 150, 0.725);
+}
